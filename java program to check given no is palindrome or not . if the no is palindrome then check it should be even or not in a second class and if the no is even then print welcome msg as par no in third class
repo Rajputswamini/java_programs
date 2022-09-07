@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+ class pal {
+
+int n,r,sum=0,temp;
+
+ void num()
+ {
+ Scanner sc = new Scanner(System.in);
+ System.out.print("Enter a number: ");
+ n=sc.nextInt();
+ temp=n;
+  while(n>0)
+  {
+   r=n%10;
+   sum=(sum*10)+r;
+   n=n/10;
+  }
+  if(temp==sum)
+   System.out.println("palindrome number ");
+  else
+   System.out.println("not palindrome");
+}
+}
+
+class even extends pal
+{
+	void check()
+{
+	  if(temp==sum)
+	  {
+	      if(sum % 2 == 0)
+        {
+            System.out.println("The given number "+sum+" is Even ");
+        }
+        else
+        {
+            System.out.println("The given number "+sum+" is Odd ");
+	}
+}
+}
+}
+
+class print extends even
+{
+	void display()
+{
+
+		{
+           if(sum % 2 == 0)
+           {
+				for(int i=1;i<=sum;i++)
+				{
+				 System.out.println("welcome");
+
+		}
+	}
+	}
+}
+}
+
+
+ class palindrome
+ {
+  public static void main(String[] arguments)
+ {
+ print d1=new print();
+ d1.num();
+ d1.check();
+ d1.display();
+
+ }
+ }
