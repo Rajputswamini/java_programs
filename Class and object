@@ -1,0 +1,17 @@
+ class bca
+ {
+ 	int a=147; String b=" Rajput Neha";
+ 	void read()
+ 	{
+ 		 System.out.println( " Student Roll No ="+a+" "+" Student Name="+" "+b);
+ 	
+ 	}
+ }
+ class test
+ {
+ 	public static void main (String args[])
+ 	{
+ 		bca b=new bca();
+ 		b.read();
+ 	}
+ }
