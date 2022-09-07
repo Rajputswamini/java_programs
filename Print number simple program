@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class prin
+	{
+		
+		  	 int a;
+		  	 Scanner sc= new Scanner(System.in);
+		  	 void  read()
+		  	 {
+		  	 System.out.println("enter the number");              a=sc.nextInt();
+		  	 }
+		  	 void display()
+		  	 {
+		  	 System.out.println("value of a is "+a);
+		  }
+	}
+	class print
+	{
+		 public static void main(String args[])
+		 {
+		 	prin p1=new prin();
+		 	p1.read();
+		 	p1.display();
+		 }
+	}
