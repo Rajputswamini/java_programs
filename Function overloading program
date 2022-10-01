@@ -1,0 +1,29 @@
+class a
+{
+	int a,b,c;
+	void read(int x,int y)
+	{
+		a=x;
+		b=y;
+	}
+	void read(int z)
+	{
+		 c=z;
+	}
+	void read()
+	{
+	 System.out.println(a+b-c);
+	}
+	
+}
+class main
+{
+		public static void main(String args[])
+		{
+			a a1=new a();
+			a1.read(5,5);
+			a1.read(10);
+			a1.read();
+		}
+}
+		
