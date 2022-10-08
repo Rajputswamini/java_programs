@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class demo
+{
+  int t1=0,t2=1,nextno,i,count;
+  Scanner sc=new Scanner(System.in);
+
+  void get()
+  {
+      System.out.println("enter the number");
+      count=sc.nextInt();
+      System.out.println(t1+""+t2);
+   }
+  void put()
+  {
+    for(i=2;i<10;i++)
+    {
+       nextno=t1+t2;
+       System.out.println(""+nextno);
+       t1=t2;
+       t2=nextno;
+      }
+   }
+ }
+class fib
+{
+	public static void main(String args[])
+	{
+		demo d=new demo();
+		d.get();
+		d.put();
+}
+}
