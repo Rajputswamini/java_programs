@@ -1,0 +1,39 @@
+import java.util.Scanner;
+class string
+{
+	public static void main(String args[])
+	{
+		String first="Hello";
+		String second="WORLD";
+		String third="world";
+		System.out.println("first"+" "+first);
+		System.out.println("second"+" "+second);
+		
+	//	charAt
+	char ch=first.charAt(4);
+	System.out.println("character at"+" "+ch);
+	
+	//Upperstr
+	String Upperstr=first.toUpperCase();
+	System.out.println("Upper case"+" "+Upperstr);
+	
+	//lowerstr
+	String lowerStr=second.toLowerCase();
+	System.out.println("Lower case"+" "+lowerStr);
+	
+	//concat
+  String join=first.concat(third);
+  System.out.println("join string"+" "+join);
+  
+  //replace
+  
+  String replace=first.replace("Hello" , "hii");
+  System.out.println("replace"+" "+replace);
+  
+  //length
+   
+   int length=join.length();
+   System.out.println("Length"+ length);
+	
+	}
+}
