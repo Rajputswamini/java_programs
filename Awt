@@ -1,0 +1,38 @@
+import java.awt.*;
+import java.awt.event.*;
+public class bevent implements ActionListener
+{
+TextField tf=new TextField();
+
+bevent()
+{
+Frame f=new Frame("ActionListener Example");
+
+tf.setBounds(50,50,150,20);
+
+Button b=new Button("Click Here");
+
+b.setBounds(50,100,60,30);
+b.addActionListener(this);
+
+f.add(b);
+
+f.add(tf);
+
+f.setSize(400,400);
+
+f.setLayout(null);
+
+f.setVisible(true);
+}
+
+public void actionPerformed(ActionEvent e)
+{
+
+tf.setText("Welcome to imrd.");
+}
+public static void main(String[]args)
+{
+bevent b1=new bevent();
+}
+}
