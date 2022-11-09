@@ -1,0 +1,32 @@
+class demo
+{
+	void read()
+	{
+		System.out.println("Base class");
+	}
+}
+class demo1 extends demo
+{
+	void display()
+	{
+		System.out.println("drived class");
+	}
+	
+}
+class demo2 extends demo1
+{
+	void get()
+	{
+		System.out.println("hjs");
+	}
+}
+class main
+{
+	public static void main(String args[])
+	{
+		demo2 d=new demo2();
+		d.read();
+		d.display();
+		d.get();
+	}
+}
