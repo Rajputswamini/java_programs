@@ -1,0 +1,24 @@
+import java .util.Scanner;
+class demo
+{
+	void show()
+	{
+		System.out.println("Base class method");
+	}
+}
+class demo1 extends demo
+{
+	void show()
+	{
+		super.show();
+		System.out.println("Drived class method");
+	}
+}
+class main
+{
+	public static void main(String args[])
+	{
+		demo1 d=new demo1();
+		d.show();
+	}
+}
