@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class abc
+{
+	int a,b;
+	abc(int x,int y)
+	{
+		a=x;
+		b=y;
+	}
+	void show()
+	{
+		System.out.println(a*b);
+	}
+}
+class main
+{
+	public static void main(String args[])
+	{
+		abc a1=new abc(10,2);
+		a1.show();
+	}
+}
