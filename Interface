@@ -1,0 +1,30 @@
+interface demo
+{
+   void display();
+}
+class value
+{
+    int a,b;
+    void read()
+    {
+        a=5;
+        b=7;
+    }
+}
+class accept extends value implements demo
+{
+     public void display()
+    {
+        System.out.println(a+b);
+        System.out.println(a*b);
+    }
+}
+ class Main
+  {
+	public static void main(String[] args)
+	 {
+	     accept a1=new accept();
+	     a1.read();
+	     a1.display();
+	}
+}
