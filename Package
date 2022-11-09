@@ -1,0 +1,21 @@
+package pack;
+public class imrd
+{
+   public void display()
+   {
+   	System.out.println("IMRD");
+   }
+}
+
+
+
+
+import pack.*;
+class bca
+{
+    public static void main(String args[])
+	{
+	   imrd obj1 =new imrd();
+	   obj1.display();
+	}
+}
