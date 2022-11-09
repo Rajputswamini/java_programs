@@ -1,0 +1,45 @@
+
+number is perfect number or not
+
+
+import java.util.Scanner;
+public class demo
+{
+      int n,b,sum=0;
+     Scanner sc=new Scanner(System.in) ;
+     void read()
+     {
+    System.out.println("Enter the Number");
+    n=sc.nextInt();
+    b=1;
+    }
+    void display()
+    {
+    while(b<n)
+    {
+        if(n%b==0)
+        {
+            sum=sum+b;
+        }
+            b=b+1;
+    }
+    if(n==sum)
+    {
+       System.out.println("Perfect number");
+    }
+    else
+    {
+    System.out.println("Not perfect number");
+    }
+    }
+}
+
+ class demo1 
+ {
+	public static void main(String[] args) 
+	{
+	demo d1=new demo();
+	d1.read();
+	d1.display();	
+	}
+}
