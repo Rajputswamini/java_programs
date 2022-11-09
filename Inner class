@@ -1,0 +1,19 @@
+class outer
+{
+	class inner
+	{
+		public void read()
+		{
+			 System.out.println("nested class");
+		}
+	}
+}
+class main
+{
+	public static void main(String args[])
+	{
+		outer.inner in=new outer().new inner();
+		in.read();
+	}
+}
+		
