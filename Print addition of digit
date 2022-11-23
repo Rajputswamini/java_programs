@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class sum
+{
+	int sum=0,digit,number;
+	Scanner sc=new Scanner(System.in);
+	
+	void read()
+	{
+		System.out.println("enter the number");
+		number=sc.nextInt();
+	}
+	
+	void display()
+	{
+		while(number>0)
+		{
+			digit=number%10;
+			sum=sum+digit;
+			number=number/10;
+		}
+		System.out.println("sum of digit"+sum);
+	}
+}
+class main
+{
+	public static void main(String args[])
+	{
+		sum s=new sum();
+		s.read();
+		s.display();
+	}
+}
