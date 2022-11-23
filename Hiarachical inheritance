@@ -1,0 +1,39 @@
+class a
+{ 
+	void reada()
+	{
+		System.out.println("method of class");
+		
+	}
+}
+class b extends a
+{
+	void readb()
+	{
+	System.out.println("method of class");
+	}
+}
+class c extends a
+{
+	
+	void readc()
+	{
+		System.out.println("method of class");
+	}
+}
+class main
+{
+	public static void main(String args[])
+	{
+	  
+	   b obj1=new b();
+	   c obj2=new c();
+	  
+	  
+	  obj1.reada();
+	  obj2.reada();
+	  
+	 
+	   
+	}
+}
