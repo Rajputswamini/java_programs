@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class Even
+{
+     int num;
+     Scanner sc= new Scanner(System.in);
+      void read()
+      {
+        System.out.print("Enter a number: ");
+         num = sc.nextInt();
+      }
+      void display()
+      {
+           if(num % 2 == 0)
+           {
+            System.out.println(" is even"+num);
+           }
+        else
+        {
+            System.out.println(" is odd"+num);
+           }
+      }
+}
+class main
+{
+	public static void main(String args[])
+	{
+		Even n=new Even();
+		n.read();
+		n.display();
+	}
+}
+	
+	
