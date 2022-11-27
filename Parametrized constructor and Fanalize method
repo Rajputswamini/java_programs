@@ -2,7 +2,7 @@ class demo
 {
 	demo(int x)
 	{
-		System.out.println("x");
+		System.out.println(x);
 	}
 	protected void finalize()
 	{
