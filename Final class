@@ -1,0 +1,24 @@
+final class a
+{
+	void read()
+	{
+		System.out.println("Base class method");
+	}
+}
+class b extends a
+{
+	void read()
+	{
+		System.out.println("Drived class method");
+	}
+}
+class main
+{
+
+	public static void main(String args[])
+	{
+		 b b1=new b();
+		 b1.read();
+	}
+}
+		
