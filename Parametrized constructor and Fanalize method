@@ -1,0 +1,22 @@
+class demo
+{
+	demo(int x)
+	{
+		System.out.println("x");
+	}
+	protected void finalize()
+	{
+		System.out.println("object is destroyed by the garbage collector");
+	}
+}
+class main
+{
+	public static void main(String args[])
+	{
+		demo d=new demo(23);
+		d.finalize();
+		d=null;
+		
+		System.out.println("Inside the main() method");
+	}
+}
