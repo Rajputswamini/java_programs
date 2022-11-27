@@ -1,0 +1,32 @@
+import java.applet.Applet;
+import java.awt.*;
+public class indiamflag extends Applet
+{
+public void paint(Graphics g)
+{
+g.setColor(Color.orange);
+g.fillRect(60,30,160,30);
+g.setColor(Color.black);
+g.drawRect(60,30,160,30);
+
+g.setColor(Color.white);
+g.fillRect(60,60,160,30);
+g.setColor(Color.black);
+g.drawRect(60,60,160,30);
+
+g.setColor(Color.green);
+g.fillRect(60,90,160,30);
+g.setColor(Color.black);
+g.drawRect(60,90,160,30);
+
+g.setColor(Color.blue);
+g.fillOval(130,60,30,30);
+g.setColor(Color.black);
+g.drawOval(130,60,30,30);
+
+g.setColor(Color.blue);
+g.fillRect(60,30,5,250);
+g.setColor(Color.black);
+g.drawRect(60,30,5,250);
+}
+}
