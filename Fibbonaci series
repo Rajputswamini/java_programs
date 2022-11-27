@@ -12,7 +12,7 @@ class demo
    }
   void put()
   {
-    for(i=2;i<10;i++)
+    for(i=2;i<count;i++)
     {
        nextno=t1+t2;
        System.out.println(""+nextno);
