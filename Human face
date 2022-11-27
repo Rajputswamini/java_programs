@@ -1,0 +1,13 @@
+import java.applet.Applet;
+import java.awt.*;
+public class appdemo extends Applet
+{
+public void paint(Graphics g)
+{
+g.drawOval(100,60,180,180);
+g.fillOval(220,100,30,20);
+g.fillOval(139,100,30,20);
+g.drawRect(190,130,1,45);
+g.drawArc(130,80,120,130,200,140);
+}
+}
